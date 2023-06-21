@@ -4,9 +4,16 @@ import './styles.css';
 export default function App() {
   return (
     <div className='App'>
+      <Header text={'TIP CALCULATOR'} />
       <TipCalculator />
     </div>
   );
+}
+
+function Header({ text }) {
+  return (
+    <h1>{text}</h1>
+  )
 }
 
 function TipCalculator() {
@@ -82,5 +89,5 @@ function Output({ bill, tip }) {
 }
 
 function Reset({ onReset }) {
-  return <button onClick={onReset}>Reset</button>;
+  return <button className='btn' onClick={onReset}>Reset</button>;
 }

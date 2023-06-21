@@ -1,7 +1,71 @@
-
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: coral;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: #fc0 1px 0 10px;
+}
+
+.calculator {
+  /* background-color: #fff; */
+  padding: 25px;
+  margin: 10px;
+  max-width: 75vw;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.calculator input {
+  font-family: 'Quicksand', sans-serif;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  margin: 5px;
+}
+
+.calculator input:focus {
+  border: 1px solid white;
+}
+
+.percentage select {
+  font-family: 'Quicksand', sans-serif;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+select {
+  padding: 10px;
+  border: none;
+}
+
+.btn {
+  border-radius: 3px;
+  text-align: center;
+  margin: auto;
+  left: 50%;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  background-color: teal;
+  border: 1px solid coral;
+  padding: 10px;
+  cursor: pointer;
 }
